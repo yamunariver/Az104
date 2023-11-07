@@ -8,9 +8,10 @@ You need to ensure that you can use container1 for WebApp1.
 Which WebApp1 setting should you configure?
 ```
 
-#### Select only one answer.
-
 ```
+ Select only one answer.
+
+
 Continuous deployment
 
 Pricing plan
