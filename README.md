@@ -1,3 +1,26 @@
+## You have an Azure virtual machine.
+
+You receive a notification that the virtual machine is going to be affected by an underlying maintenance activity on the physical infrastructure.
+
+You need to move the virtual machine to a different host to avoid a service interruption.
+
+What should you do?
+
+Select only one answer.
+
+
+Apply an Azure policy.
+
+Apply an Azure tag.
+
+Move the virtual machine to another Azure subscription.
+
+Redeploy the virtual machine.
+
+
+## Exp: You must redeploy the virtual machine, which can move the virtual machine to a different host. Azure will shut down the virtual machine and move the virtual machine to a new node within the Azure infrastructure.
+
+
 ## You have an Azure virtual network that contains two subnets named Subnet1 and Subnet2. You have a virtual machine named VM1 that is connected to Subnet1. VM1 runs Windows Server.
 
 You need to ensure that VM1 is connected directly to both subnets.
