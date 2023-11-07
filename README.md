@@ -1,12 +1,13 @@
 ## You have an Azure virtual machine.
 
-You receive a notification that the virtual machine is going to be affected by an underlying maintenance activity on the physical infrastructure.
+## You receive a notification that the virtual machine is going to be affected by an underlying maintenance activity on the physical infrastructure.
 
-You need to move the virtual machine to a different host to avoid a service interruption.
+## You need to move the virtual machine to a different host to avoid a service interruption.
 
 What should you do?
 
 Select only one answer.
+
 
 
 Apply an Azure policy.
