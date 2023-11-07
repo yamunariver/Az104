@@ -45,3 +45,19 @@ a secure webhook
 ## EXP: You must create an action group to set up an action and create an alert rule to set the severity of the errors. A notification is only used to send email and you do not need to call a webhook.
 
 
+## You have an Azure Resource Manager (ARM) template named deploy.json that is stored in an Azure Blob storage container.
+
+You plan to deploy the template by running the New-AzDeployment cmdlet.
+
+Which parameter should you use to reference the template?
+
+Select only one answer.
+
+
+`-Tag `
+
+`-Templatefile `
+
+-TemplateSpecId
+
+-TemplateUri
