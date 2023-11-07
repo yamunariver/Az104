@@ -1,8 +1,27 @@
-## 
-##
+## You have an Azure subscription that contains an Azure container app named cont1.
+
+You plan to add scaling rules to cont1.
+
+You need to ensure that cont1 replicas are created based on received messages in Azure Service Bus.
+
+Which scale trigger should you use?
 
 
-You have an Azure subscription that contains a Docker container image named container1.
+Select only one answer.
+
+
+CPU usage
+
+event-driven
+
+HTTP traffic
+
+memory usage
+
+## Exp: Azure Container Apps allows a set of triggers to create new instances, called replicas. For Azure Service Bus, an event-driven trigger can be used to run the escalation method. The remaining scale triggers cannot use a scale rule based on messages in an Azure service bus.
+
+
+## You have an Azure subscription that contains a Docker container image named container1.
 
 You create a new Azure web app named WebApp1.
 
