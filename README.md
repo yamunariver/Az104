@@ -1,17 +1,17 @@
 ## 
 ##
 
-``
+
 You have an Azure subscription that contains a Docker container image named container1.
 
 You create a new Azure web app named WebApp1.
 
 You need to ensure that you can use container1 for WebApp1.
 
-Which WebApp1 setting should you configure?``
+Which WebApp1 setting should you configure?
 
 
- Select only one answer.
+Select only one answer.
 
 
 Continuous deployment
