@@ -1,7 +1,8 @@
 ## 
 ##
 
-``You have an Azure subscription that contains a Docker container image named container1.
+``
+You have an Azure subscription that contains a Docker container image named container1.
 
 You create a new Azure web app named WebApp1.
 
