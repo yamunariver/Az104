@@ -63,3 +63,22 @@ Select only one answer.
 -TemplateUri
 
 ## Exp: The PowerShell deployment cmdlets can be used to deploy JSON templates that are stored locally in a resources group as a template spec, or from a web-based location. You can use the -TemplateUri parameter to specify a web-based location, such as GitHub or an Azure Blob Storage account. You can use -Templatefile to specify a local file. You can use -TemplateSpecId to specify a template that was save to Azure as a template spec.
+
+
+## You plan to deploy an Azure virtual machine based on a basic template stored in the Azure Resource Manager (ARM) library.
+
+What can you configure during the deployment of the template?
+
+
+Select only one answer.
+
+
+the disk assigned to virtual machine
+
+the operating system
+
+the resource group
+
+the size of virtual machine
+
+## Exp: When you deploy a resource by using a template, you can mention the resource group for the deployment. The resource group is a container for Azure resources and makes it easier to manage the resources.
