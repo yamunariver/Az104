@@ -7,7 +7,8 @@ You need to ensure that cont1 replicas are created based on received messages in
 Which scale trigger should you use?
 
 
-Select only one answer.
+Select only one answer
+
 
 
 CPU usage
