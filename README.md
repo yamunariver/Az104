@@ -1,3 +1,27 @@
+## You are deploying a virtual machine by using an availability set in the East US Azure region.
+
+You have deployed 18 virtual machines in two fault domains and 10 update domains.
+
+Microsoft performed planned physical hardware maintenance in the East US region.
+
+What is the maximum number of virtual machines that will be unavailable?
+``
+
+Select only one answer.
+
+
+2
+
+8
+
+9
+
+18
+
+
+## Exp: 18 virtual machines are shared across 10 update domains. The first 10 virtual machines go to 10 update domains, so eight update domains will have two virtual machines. When there is physical hardware maintenance, some virtual machines will be unavailable based on their configuration. If there was a rack failure, then 18 virtual machines will be distributed to two fault domains with nine virtual machines each.
+
+
 ## You have an Azure virtual machine.
 
 ## You receive a notification that the virtual machine is going to be affected by an underlying maintenance activity on the physical infrastructure.
