@@ -1,4 +1,20 @@
-# Az104
+## You have an Azure virtual network that contains two subnets named Subnet1 and Subnet2. You have a virtual machine named VM1 that is connected to Subnet1. VM1 runs Windows Server.
+
+You need to ensure that VM1 is connected directly to both subnets.
+
+What should you do first?
+
+Select only one answer.
+
+
+From the Azure portal, add a network interface.
+
+From the Azure portal, create an IP group.
+
+From the Azure portal, modify the IP configurations of an existing network interface.
+
+Sign in to Windows Server and create a network bridge.
+
 
 ## You have a Log Analytics workspace that collects data from various data sources.
 
