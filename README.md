@@ -15,6 +15,11 @@ From the Azure portal, modify the IP configurations of an existing network inter
 
 Sign in to Windows Server and create a network bridge.
 
+## Exp: A network interface is used to connect a virtual machine to a subnet. Since VM1 is connected to Subnet1, VM1 already has a network interface attached that is connected to Subnet1. To connect VM1 directly to Subnet2, you must create a new network interface that is connected to Subnet2. Next, you must attach the new network interface to VM1. \n An IP group is a user-defined collection of static IP addresses, ranges, and subnets. A network bridge allows you to connect multiple existing network connection in Windows together. Changing the IP configurations of the existing network interface results in VM1 being connected to Subnet2 but not to Subnet1.
+
+
+
+
 
 ## You have a Log Analytics workspace that collects data from various data sources.
 
