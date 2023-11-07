@@ -1,5 +1,7 @@
 ## 
-## ``` You have an Azure subscription that contains a Docker container image named container1.
+## ``` 
+
+You have an Azure subscription that contains a Docker container image named container1.
 
 You create a new Azure web app named WebApp1.
 
@@ -7,7 +9,7 @@ You need to ensure that you can use container1 for WebApp1.
 
 Which WebApp1 setting should you configure?
 
-```
+
  Select only one answer.
 
 
@@ -18,9 +20,9 @@ Pricing plan
 Publish
 
 Runtime stack
-``
+
 ## Exp: 
-```
+
 If you want to run a Docker container as an Azure web service, you must configure the Publish option and select Docker container.
 
 Runtime stack specifies the stack that you want to use for the web app. If you want to deploy a Docker container as web app, the runtime stack option is unavailable.
