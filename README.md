@@ -17,3 +17,26 @@ Select only one answer.
 90
 
 180
+
+
+## You need to create Azure alerts based on metric values and activity log events.
+
+The solution must meet the following requirements:
+
+Set a limit on how many times an alert notification is sent.
+
+Call an Azure function when an alert is triggered.
+
+Configure the alert to have a severity of warning when triggered.
+
+Which two resources should you create? Each correct answer presents part of the solution.
+
+Select all answers that apply.
+
+an action group
+
+an alert rule
+
+a notification
+
+a secure webhook
