@@ -82,3 +82,22 @@ the resource group
 the size of virtual machine
 
 ## Exp: When you deploy a resource by using a template, you can mention the resource group for the deployment. The resource group is a container for Azure resources and makes it easier to manage the resources.
+
+
+## You are creating an Azure virtual machine that will run Windows Server.
+
+You need to ensure that VM1 will be part of a virtual machine scale set.
+
+Which setting should you configure during the creation of the virtual machine?
+
+Select only one answer.
+
+Availability options
+
+Azure Spot instance
+
+Management
+
+Region
+
+## Exp: You must configure the virtual machine scale set from the availability options. Azure spot instance is used to add virtual machines with a discounted price. Region will not affect the configuration of the availability options. The management setting allows you to configure the monitoring and management options for the virtual machine.
