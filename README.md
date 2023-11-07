@@ -1,3 +1,30 @@
+## You have an Azure subscription.
+
+You plan to deploy a web app in a Linux-based Docker container.
+
+You need to recommend a solution for the deployment of the web app that meets the following requirements:
+
+Supports a custom domain name
+Provides the ability to scale out automatically based on demand.
+Minimizes administrative effort
+Minimizes costs
+
+Which solution should you recommend?
+
+Select only one answer.
+
+Azure App Service
+
+
+Azure Container Instances
+
+Azure Kubernetes Service (AKS)
+
+Azure Virtual Machine Scale Sets
+## Exp: Azure App Service fulfills all the stated requirements. Azure Virtual Machine Scale Sets, Azure Kubernetes Service (AKS), and Azure Container Instances are more difficult to administer and more costly.
+
+
+
 ## You need to create an Azure App Service web app that runs on Windows. The web app requires scaling to five instances, 45 GB of storage, and a custom domain name. The solution must minimize costs.
 
 Which App Service plan should you use?
