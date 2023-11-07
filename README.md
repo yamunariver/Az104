@@ -33,6 +33,7 @@ Which two resources should you create? Each correct answer presents part of the 
 
 Select all answers that apply.
 
+
 an action group
 
 an alert rule
@@ -40,3 +41,7 @@ an alert rule
 a notification
 
 a secure webhook
+
+## EXP: You must create an action group to set up an action and create an alert rule to set the severity of the errors. A notification is only used to send email and you do not need to call a webhook.
+
+
