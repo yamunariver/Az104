@@ -27,7 +27,7 @@ Runtime stack specifies the stack that you want to use for the web app. If you w
 Pricing plan specifies the location, features, and costs of the web app.
 
 Continuous deployment is a strategy for software releases. This option is unavailable when you publish a Docker container as an Azure web app.
-```
+
 
 
 
