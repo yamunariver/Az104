@@ -1,3 +1,28 @@
+## You deploy web servers to two virtual machines named VM1 and VM2 in an availability set named AVSet1.
+
+You need to configure Azure Load Balancer with a backend pool of VM1 and VM2. The solution must minimize costs.
+
+Which SKU should you use for the Azure Load Balancer configuration?
+
+Select only one answer.
+
+Azure Standard Load Balancer with Basic SKU public IP
+
+Azure Standard Load Balancer with Standard SKU public IP
+
+Basic Azure Load Balancer with Basic SKU public IP
+
+Basic Azure Load Balancer with Standard SKU public IP
+
+## Exp: Basic Azure Load Balancer supports deployment in a single availability zone. Basic Azure Load Balancer supports only Basic SKU public IP. Azure Standard Load Balancer is zone-redundant, but has a higher cost.
+
+Azure Load Balancer SKUs | Microsoft Learn
+
+Configure Azure Load Balancer - Training | Microsoft Learn
+
+
+
+
 ## You have three network security groups (NSGs) named NSG1, NSG2, and NSG3. Port 80 is blocked in NSG3 and allowed in NSG1 and NSG2.
 
 You have four Azure virtual machines that have the following configurations:
