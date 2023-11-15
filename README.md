@@ -1,3 +1,24 @@
+## You have an Azure virtual network that contains four subnets. Each subnet contains 10 virtual machines.
+
+You plan to configure a network security group (NSG) that will allow inbound traffic over TCP port 8080 to two virtual machines on each subnet. The NSG will be associated to each subnet.
+
+You need to recommend a solution to configure the inbound access by using the fewest number of NSG rules possible.
+
+What should you use as the destination in the NSG?
+
+Select only one answer.
+
+an application security group
+This answer is correct.
+
+a service tag
+
+the subnets of the virtual machines
+
+## Exp: Application security groups allow you to group together the network interfaces from multiple virtual machines, and then use the group as the source or destination in an NSG rule. The network interfaces must be in the same virtual network. *) You can use the IP address of each virtual machine as the destination, but you must create a rule for each virtual machine. *) Using the subnets will require four rules and will also allow traffic to all the virtual machines on those subnets. *) Service tags are for specific Azure services, such as Azure App Service or Azure Backup.
+
+
+
 ## You have an Azure subscription that contains a network security group (NSG) named NSG1.
 
 You plan to configure NSG1 to allow the following types of traffic:
