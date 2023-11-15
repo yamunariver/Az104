@@ -1,3 +1,51 @@
+## You have three network security groups (NSGs) named NSG1, NSG2, and NSG3. Port 80 is blocked in NSG3 and allowed in NSG1 and NSG2.
+
+You have four Azure virtual machines that have the following configurations:
+
+VM1:
+
+Subnet: Subnet1
+Network card: NIC1
+NIC1 is assigned to NSG2.
+VM2:
+
+Subnet: Subnet1
+Network card: NIC2
+NIC2 is assigned to NSG3.
+VM3:
+
+Subnet: Subnet3
+Network card: NIC3
+NIC3 is assigned to NSG3.
+VM4:
+
+Subnet: Subnet2
+You have the following subnets:
+
+Subnet1 is assigned to NSG1.
+Subnet2 is assigned to NSG3.
+Subnet 3 does not have an NSG assigned.
+Which virtual machine will allow traffic from the internet on port 80?
+
+Select only one answer.
+
+
+VM1
+
+VM2
+
+VM3
+
+VM4
+
+
+## Exp: On VM1, both NSGs assigned to Subnet1 and the NIC1 card allow traffic on port 80. On VM2, NSG1 allows traffic, but NSG3 blocks traffic for the network interface. On VM3 and VM4, NSG3 blocks traffic.
+
+
+
+
+
+
 ## You have an Azure virtual network that contains four subnets. Each subnet contains 10 virtual machines.
 
 You plan to configure a network security group (NSG) that will allow inbound traffic over TCP port 8080 to two virtual machines on each subnet. The NSG will be associated to each subnet.
