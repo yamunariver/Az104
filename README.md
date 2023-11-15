@@ -1,3 +1,56 @@
+## You have an Azure subscription that contains a network security group (NSG) named NSG1.
+
+You plan to configure NSG1 to allow the following types of traffic:
+
+Remote Desktop Management
+Secured HTTPS
+Which two ports should you allow in NSG1? Each correct answer presents part of the solution.
+
+Select all answers that apply.
+
+
+80
+
+25
+
+443
+
+587
+
+3389
+
+
+## Exp: You must open port 443 to secured HTTPS traffic, port 3389 for Remote Desktop, and 587 to send outbound email by using authenticated SMTP relay. Port 80 is used for unsecured traffic. Port 25 is used by mail traffic.
+
+
+## You have an Azure subscription that contains two resource groups named RG1 and RG2.
+
+RG1 contains the following resources:
+
+A virtual network named VNet1 located in the East US Azure region
+A network security group (NSG) named NSG1 located in the West US Azure region
+RG2 contains the following resources:
+
+A virtual network named VNet2 located in the East US Azure region
+A virtual network named VNet3 located in the West US Azure region
+You need to apply NSG1.
+
+To which subnets can you apply NSG1?
+
+Select only one answer.
+
+
+the subnets of all the virtual networks
+
+the subnets of VNet1 only
+
+the subnets of VNet1 and VNet2
+
+the subnets of VNet3 only
+
+
+## Exp: You can assign an NSG to the subnet of the virtual network in the same region as the NSG and NSG1 is in the West US region.
+
 ## You need to create Azure alerts based on metric values and activity log events.
 
 The solution must meet the following requirements:
