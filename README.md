@@ -1,3 +1,24 @@
+## You have an Azure subscription and a user named User1.
+
+You need to assign User1 a role that allows the user to create and manage all types of resources in the subscription. The solution must prevent User1 from assigning roles to other users.
+
+Which Azure role-based access control (RBAC) role should you assign to User1?
+
+Select only one answer.
+
+
+API Management Service Contributor
+
+Contributor
+
+Owner
+
+Reader
+
+
+## Exp: Users with the Contributor role can create and manage all types of resources but cannot delegate new access to other users. Users with the Reader role can view existing Azure resources but cannot perform any action against them. Users with the API Management Service Contributor role can only manage API Management services and APIs. Users with the Owner role provides full access to all resources, including the right to delegate access to others.
+
+
 ## You have the following resource groups, management groups, and Azure subscriptions:
 
 Two resource groups named RG1 and RG2 that are associated with a subscription named 111-222-333 and a management group named MG1
