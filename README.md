@@ -1,3 +1,29 @@
+## You have the following resource groups, management groups, and Azure subscriptions:
+
+Two resource groups named RG1 and RG2 that are associated with a subscription named 111-222-333 and a management group named MG1
+Two resource groups named RG3 and RG4 that are associated with a subscription named 777-888-999 and a management group named MG1
+Two resource groups named RG5 and RG6 that are associated with a subscription named 444-555-666 and a management group named MG1
+Two resource group named RG10 and RG11 that are associated with a subscription named 222-333-444 and a management group named MG2
+Two resource group named RG11 and RG12 that are associated with a subscription named 555-666-888 and a management group named MG2
+You need to assign a role to a user to ensure the user can view all the resources in the subscriptions. The solution must use the principle of least privilege.
+
+Which role should you assign?
+
+Select only one answer.
+
+
+the Billing Reader role for all the subscriptions
+
+the Billing Reader role for MG1 and MG2
+
+the Contributor role for MG1 and MG2
+
+the Reader role for MG1 and MG2
+
+
+## Exp: Assigning the Reader role for MG1 and MG2 is correct because the simplest way to give user access to all resources is to assign a role at the management group level.
+
+
 ## You have a Microsoft Entra tenant named contoso.com. Microsoft Entra Connect is configured to sync users to the tenant.
 
 You need to assign licenses to the users based on Microsoft Entra ID attributes. The attribute values will be set by the HR department.
