@@ -1,3 +1,25 @@
+## You have an Azure subscription that contains a resource group named RG1. RG1 contains a virtual machine that runs daily reports.
+
+You need to ensure that the virtual machine shuts down when resource group costs exceed 75 percent of the allocated budget.
+
+Which two actions should you perform? Each correct answer presents part of the solution.
+
+
+Select all answers that apply.
+
+
+Create an action group of type Runbook, and then select Scale Up VM.
+
+Create an action group of type Runbook, and then select **Stop VM** as an action.
+
+From Cost Management + Billing, create a new cost analysis.
+
+From Cost Management + Billing, modify the Budgets settings.
+
+
+## Exp: You must go to Cost Management + Billing, and then Budgets to edit the budget associated with the resource group resources. You must also create a new action group of the Runbook type, and then choose Stop VM as an action. The cost analysis will not stop the virtual machine from running and the Scale Up VM action group is not required.
+
+
 ## You have an Azure subscription and a user named User1.
 
 You need to assign User1 a role that allows the user to create and manage all types of resources in the subscription. The solution must prevent User1 from assigning roles to other users.
