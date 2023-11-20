@@ -1,3 +1,22 @@
+## You need to create an Azure Storage account that supports the Azure Data Lake Storage Gen2 capabilities.
+
+Which two types of storage accounts can you use? Each correct answer presents a complete solution.
+
+Select all answers that apply.
+
+`premium block blobs`
+
+`premium file shares`
+
+`standard general-purpose v2`
+
+`premium page 
+
+`To support Data Lake Storage, the storage account must support blob storage, which is available as standard general-purpose v2 and premium block blobs. Additionally, when you create the storage account, you must enable the hierarchical namespace.
+
+`
+
+
 ## You plan to deploy an Azure virtual machine based on a basic template stored in the Azure Resource Manager (ARM) library.
 
 What can you configure during the deployment of the template?
