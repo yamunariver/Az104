@@ -1,3 +1,24 @@
+## You have an Azure subscription that contains hundreds of virtual machines that were migrated from a local datacenter.
+
+You need to identify which virtual machines are underutilized.
+
+Which Azure Advisor settings should you use?
+
+Select only one answer.
+
+
+Cost
+
+High Availability
+
+Operational Excellence
+
+Performance
+
+## Exp: The Cost blade allows you to optimize and reduce your overall Azure spending. You can use this to identify the virtual machines that are underutilized. The Performance blade allows you to improve the speed of your applications. High availability is unavailable via Azure Advisor. Operational Excellence helps you achieve process and workflow efficiency, resource manageability, and deployment best practices.
+
+
+
 ## You have an Azure subscription that contains a resource group named RG1. RG1 contains a virtual machine that runs daily reports.
 
 You need to ensure that the virtual machine shuts down when resource group costs exceed 75 percent of the allocated budget.
