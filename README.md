@@ -1,3 +1,25 @@
+## You have a Microsoft Entra tenant named contoso.com. Microsoft Entra Connect is configured to sync users to the tenant.
+
+You need to assign licenses to the users based on Microsoft Entra ID attributes. The attribute values will be set by the HR department.
+
+Which two actions should you perform? Each correct answer presents part of the solution.
+
+Select all answers that apply.
+
+
+Assign the licenses to the dynamic groups.
+
+Assign the licenses to the security groups.
+
+Create an automatic assignment policy.
+
+Create dynamic groups.
+
+Create security groups.
+
+
+## Exp: To assign licenses to users based on Microsoft Entra ID attributes, you must create a dynamic security group and configure rules based on custom attributes. The dynamic group must be added to a license group for automatic synchronization. All users in the groups will get the license automatically. Microsoft Entra evaluates the users in the organization that are in scope for an assignment policy rule and creates assignments for the users who don't have assignments to an access package; automatic assignment policies are not used for licensing.
+
 ## You deploy web servers to two virtual machines named VM1 and VM2 in an availability set named AVSet1.
 
 You need to configure Azure Load Balancer with a backend pool of VM1 and VM2. The solution must minimize costs.
