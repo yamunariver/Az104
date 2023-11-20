@@ -1,3 +1,136 @@
+## You plan to use the following two Azure Resource Manager (ARM) templates to provision virtual machines:
+
+Template.json
+
+{ 
+
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#", 
+
+  "contentVersion": "1.0.0.0", 
+
+  "parameters": { 
+
+    "adminUsername": { 
+
+      "type": "string", 
+
+      "metadata": { 
+
+        "description": "User name for the Virtual Machine." 
+
+      } 
+
+    }, 
+
+    "adminPassword": { 
+
+      "type": "securestring", 
+
+      "metadata": { 
+
+        "description": "Password for the Virtual Machine." 
+
+      } 
+
+    }, 
+
+    "dnsLabelPrefix": { 
+
+      "type": "string", 
+
+      "defaultValue": "[concat('vm-', uniqueString(resourceGroup().id))]", 
+
+      "metadata": { 
+
+        "description": "Unique DNS Name for the Public IP used to access the Virtual Machine." 
+
+      } 
+
+    }, 
+
+... 
+
+{ 
+
+      "apiVersion": "2019-12-01", 
+
+      "type": "Microsoft.Compute/virtualMachines", 
+
+      "name": "[variables('vmName')]", 
+
+      "location": "[parameters('location')]", 
+
+      "dependsOn": [ 
+
+        "[variables('storageAccountName')]", 
+
+        "[variables('nicName')]" 
+
+      ], 
+
+      "properties": { 
+
+        "hardwareProfile": { 
+
+          "vmSize": "[parameters('vmSize')]" 
+
+        }, 
+
+        "osProfile": { 
+
+          "computerName": "[variables('vmName')]", 
+
+          "adminUsername": "[parameters('adminUsername')]", 
+
+          "adminPassword": "[parameters('adminPassword')]" 
+
+        }, 
+
+... 
+Template.parameters.json
+
+{ 
+
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#", 
+
+  "contentVersion": "1.0.0.0", 
+
+  "parameters": { 
+
+    "adminUsername": { 
+
+      "value": "" 
+
+    }, 
+
+    "adminPassword": { 
+
+             ... 
+
+      } 
+
+    } 
+
+  } 
+
+} 
+Which two resources should you provision to ensure that the password can be stored securely?
+
+Select all answers that apply.
+
+Access Policy
+
+an Azure compliance policy
+
+an Azure Storage account
+
+Azure Key Vault
+
+## Exp: You must create a new key vault, create the password from there, and then specify the parameters. You must also create a Key Vault access policy to use in the template.
+
+
+
+
 ## You have an Azure subscription that contains hundreds of virtual machines that were migrated from a local datacenter.
 
 You need to identify which virtual machines are underutilized.
