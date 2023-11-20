@@ -13,7 +13,6 @@ Select all answers that apply.
 `premium page 
 
 `To support Data Lake Storage, the storage account must support blob storage, which is available as standard general-purpose v2 and premium block blobs. Additionally, when you create the storage account, you must enable the hierarchical namespace.
-
 `
 
 
