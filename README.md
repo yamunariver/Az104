@@ -1,3 +1,26 @@
+## You have a Microsoft Entra tenant.
+
+Your company has several offices in the same region. Each office has a dedicated IT staff.
+
+You need to ensure that the IT staff in each office can manage passwords for their users and administrators.
+
+Which two actions should you perform? Each correct answer presents part of the solution.
+
+Select all answers that apply.
+
+
+`Assign the Helpdesk Administrator role.`
+
+`Assign the Password Administrator role.`
+
+`From the Azure portal, add administrative units.`
+
+` From the Azure portal, create a new custom role. `
+
+` You must create an administrative unit and the Helpdesk role assignment allows members to change password for both users and other administrators. `
+
+
+
 ## You have an Azure subscription that contains a tenant named contoso.com.
 
 All users in contoso.com are currently able to invite external users to B2B collaboration.
