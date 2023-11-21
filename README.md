@@ -1,3 +1,33 @@
+## You have an Azure subscription that contains a tenant named contoso.com.
+
+All users in contoso.com are currently able to invite external users to B2B collaboration.
+
+You need to ensure that only members of the Guest Inviter, User Administrator, and Global Administrator roles can invite guest users.
+
+What should you configure?
+
+Select only one answer.
+
+
+`Access reviews`
+
+`Conditional Access`
+
+`Cross-tenant access settings`
+
+`External collaboration settings`
+
+`
+External collaboration settings let you specify which roles in your organization can invite external users for B2B collaboration. These settings also include options for allowing or blocking specific domains and options for restricting which external guest users can see in your Microsoft Entra directory.
+
+Conditional Access allows you to apply rules to strengthen authentication and block access to resources from unknown locations.
+
+Cross-tenant access settings are used to configure collaboration with a specific Microsoft Entra organization.
+
+Access reviews are not used to control who can invite guest users.
+`
+
+
 ## You have an Azure subscription that contains 200 virtual machines.
 
 You plan to use Azure Advisor to provide cost recommendations when underutilized virtual machines are detected.
