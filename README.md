@@ -1,3 +1,31 @@
+## You have an Azure subscription that contains a virtual network named VNet1.
+
+You plan to deploy a virtual machine named VM1 to be used as a network inspection appliance.
+
+You need to ensure that all network traffic passes through VM1.
+
+What should you do?
+
+
+Select only one answer.
+
+
+
+
+`Configure a user-defined route.`
+
+`Create a virtual network gateway.`
+
+`Modify the default route.`
+
+`Modify the system route.`
+
+
+
+`Azure automatically creates a route table for each subnet on an Azure virtual network and adds system default routes to the table. You can override some of the Azure system routes with custom user-defined routes and add more custom routes to route tables. Azure routes outbound traffic from a subnet based on the routes on a subnet's route table.`
+
+
+
 ## You have a Microsoft Entra tenant.
 
 Your company has several offices in the same region. Each office has a dedicated IT staff.
