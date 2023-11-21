@@ -1,3 +1,24 @@
+## You have an Azure Resource Manager (ARM) template named deploy.json that is stored in an Azure Blob storage container.
+
+You plan to deploy the template by running the New-AzDeployment cmdlet.
+
+Which parameter should you use to reference the template?
+
+Select only one answer.
+
+
+`-Tag `
+
+`-Templatefile `
+
+`-TemplateSpecId`
+
+`-TemplateUri`
+
+`The PowerShell deployment cmdlets can be used to deploy JSON templates that are stored locally in a resources group as a template spec, or from a web-based location. You can use the -TemplateUri parameter to specify a web-based location, such as GitHub or an Azure Blob Storage account. You can use -Templatefile to specify a local file. You can use -TemplateSpecId to specify a template that was save to Azure as a template spec.
+`
+
+
 ## You need to create an Azure Storage account that supports the Azure Data Lake Storage Gen2 capabilities.
 
 Which two types of storage accounts can you use? Each correct answer presents a complete solution.
