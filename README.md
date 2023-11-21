@@ -1,3 +1,29 @@
+## You have an Azure subscription that contains a resource group named RG1.
+
+You have an Azure Resource Manager (ARM) template for an Azure virtual machine.
+
+You need to use PowerShell to provision a virtual machine in RG1 by using the template.
+
+Which PowerShell cmdlet should you run?
+
+Select only one answer.
+
+`
+`
+`New-AzManagementGroupDeployment`
+
+`New-AzResourceGroupDeployment`
+
+`New-AzSubscriptionDeployment `
+
+`New-AzVM`
+
+
+`Virtual machines are deployed to resource groups, so you must run the New-AzResourceGroupDeployment cmdlet. You can deploy virtual machines to subscriptions or management groups directly, therefore, New-AzManagementGroupDeployment and New-AzSubscriptionDeployment cannot be used. New-AzVM can be used to provision a new virtual machine, but without using a template.`
+
+
+
+
 ## You have an Azure subscription that contains four virtual machines. Each virtual machine is connected to a subnet on a different virtual network.
 
 You install the DNS Server role on a virtual machine named VM1.
