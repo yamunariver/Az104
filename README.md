@@ -1,5 +1,29 @@
 ## You have an Azure subscription that contains a virtual network named VNet1.
 
+You plan to enable VNet1 connectivity to on-premises resources by using an encrypted connection.
+
+What should you configure for VNet1?
+
+Select only one answer.
+
+`a private endpoint connection`
+
+`a public IP address`
+
+`a VPN`
+
+`internet routing`
+
+
+`A VPN gateway is a type of virtual network gateway that sends encrypted traffic between a virtual network and an on-premises location across a public connection. You can also use a VPN gateway to send traffic between virtual networks across the Azure backbone. A VPN gateway connection relies on the configuration of multiple resources, each of which contains configurable settings.`
+
+
+
+
+
+
+## You have an Azure subscription that contains a virtual network named VNet1.
+
 You plan to deploy a virtual machine named VM1 to be used as a network inspection appliance.
 
 You need to ensure that all network traffic passes through VM1.
