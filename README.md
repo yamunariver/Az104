@@ -1,3 +1,30 @@
+## You have an Azure subscription that contains 200 virtual machines.
+
+You plan to use Azure Advisor to provide cost recommendations when underutilized virtual machines are detected.
+
+You need to ensure that all Azure admins are notified whenever an Advisor alert is generated. The solution must minimize administrative effort.
+
+What should you configure?
+
+
+Select only one answer.
+
+
+`an action group`
+
+`an application security group`
+
+`an Azure Automation account`
+
+
+`a capacity reservation group`
+
+`
+Whenever Azure Advisor detects a new recommendation for resources, an event is stored in the Azure Activity log. You can set up alerts for these events from Azure Advisor. You can select a subscription and optionally a resource group to specify the resources for which you want to receive alerts. You also need to create an action group that will contain all the users to be notified.
+`
+
+
+
 ## You have an Azure subscription that contains a container app named App1. App1 is configured to use cached data.
 
 You plan to create a new container.
