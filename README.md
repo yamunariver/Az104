@@ -1,3 +1,29 @@
+## you have an Azure virtual network that contains two subnets named Subnet1 and Subnet2. You have a virtual machine named VM1 that is connected to Subnet1. VM1 runs Windows Server.
+
+You need to ensure that VM1 is connected directly to both subnets.
+
+What should you do first?
+
+Select only one answer.
+
+
+` `
+`From the Azure portal, add a network interface.`
+
+`From the Azure portal, create an IP group.`
+
+`From the Azure portal, modify the IP configurations of an existing network interface.`
+
+`Sign in to Windows Server and create a network bridge.`
+
+
+`A network interface is used to connect a virtual machine to a subnet. Since VM1 is connected to Subnet1, VM1 already has a network interface attached that is connected to Subnet1. To connect VM1 directly to Subnet2, you must create a new network interface that is connected to Subnet2. Next, you must attach the new network interface to VM1.`
+
+`An IP group is a user-defined collection of static IP addresses, ranges, and subnets. A network bridge allows you to connect multiple existing network connection in Windows together. Changing the IP configurations of the existing network interface results in VM1 being connected to Subnet2 but not to Subnet1.`
+
+
+
+
 ## You have an Azure subscription that contains a resource group named RG1.
 
 You have an Azure Resource Manager (ARM) template for an Azure virtual machine.
