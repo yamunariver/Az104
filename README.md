@@ -1,3 +1,25 @@
+## You have an Azure subscription.
+
+You plan to implement four Azure virtual networks that will be peered. All virtual machines will use a DNS suffix of contoso.com.
+
+You need to configure name resolution for the virtual networks to ensure that all the virtual machines can communicate by using their FQDNs. The solution must minimize administrative effort.
+
+What should you use?
+
+Select only one answer.
+
+`a DNS server on an Azure virtual machine`
+
+`an Azure Private DNS zone`
+
+`an Azure public DNS zone`
+
+`Azure-provided name resolution`
+
+`Azure Private DNS allows for private name resolution between Azure virtual networks. Azure public DNS provides DNS for public access, such as name resolution for a publicly accessible website. Azure-provided name resolution does not support user-defined domain names and only supports a single virtual network. A DNS server on a virtual machine can also be used to achieve the goal but involves much more administrative effort to implement and maintain than using Azure Private DNS.`
+
+
+
 ## You have an Azure subscription that contains a virtual network named VNet1.
 
 You plan to enable VNet1 connectivity to on-premises resources by using an encrypted connection.
