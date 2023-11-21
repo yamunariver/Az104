@@ -1,3 +1,29 @@
+## You have a Basic Azure App Service plan that contains a web app.
+
+You need to ensure that the web app can scale automatically when the CPU percentage goes beyond 80 percent for a duration of 15 minutes.
+
+Which two actions should you perform? Each correct answer presents part of the solution.
+
+Select all answers that apply.
+
+`
+`
+
+`Configure a deployment slot.`
+
+`Configure a scaling condition to scale based on a metric, and then add the rules.`
+
+`Configure a scaling condition to scale based on an instance count, and then set the instance count.`
+
+`Scale out the App Service plan.`
+
+`Scale up the App Service plan.`
+
+
+`Scale up the web app by adding more CPU, memory, and disk space to fulfill the requirement. Increase the number of virtual machine instances that run the app. The scale settings take only seconds to apply and affect all the apps in the App Service plan. Then, you must set up a scaling condition with the required metrics to scale up/down and scale out/in when certain thresholds are met.`
+
+
+
 ## you have an Azure virtual network that contains two subnets named Subnet1 and Subnet2. You have a virtual machine named VM1 that is connected to Subnet1. VM1 runs Windows Server.
 
 You need to ensure that VM1 is connected directly to both subnets.
