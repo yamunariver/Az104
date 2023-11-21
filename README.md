@@ -1,3 +1,36 @@
+## You have an Azure subscription that contains four virtual machines. Each virtual machine is connected to a subnet on a different virtual network.
+
+You install the DNS Server role on a virtual machine named VM1.
+
+You configure each virtual network to use the IP address of VM1 as the DNS server.
+
+You need to ensure that all four virtual machines can resolve IP addresses by using VM1.
+
+What should you do?
+
+
+Select only one answer.
+
+
+
+`Configure a DNS server on all four virtual machines.`
+
+`Configure network peering.`
+
+`Create and associate a route table to all four subnets.`
+
+`Create Site-to-Site (S2S) VPNs.`
+
+
+
+`By default, Azure virtual machines can communicate only with other virtual machines that are connected to the same virtual network. If you want a virtual machine to communicate with other virtual machines that are connected to other virtual networks, you must configure network peering.`
+
+`A route table controls how network traffic is routed. But without network peering, network traffic is still limited to single virtual network.`
+
+`Configuring a Site-to-Site (S2S) VPN is incorrect because you are not connecting on-premises virtual machines to the cloud.`
+
+
+
 ## You have an Azure subscription.
 
 You plan to implement four Azure virtual networks that will be peered. All virtual machines will use a DNS suffix of contoso.com.
