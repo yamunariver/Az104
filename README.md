@@ -1,3 +1,30 @@
+##  You have an Azure subscription that contains a web app named App1.
+
+You configure App1 with a custom domain name of webapp1.contoso.com.
+
+You need to create a DNS record for App1. The solution must ensure that App1 remains accessible if the IP address changes.
+
+Which type of DNS record should you create?
+
+Select only one answer.
+
+` `
+
+`A`
+
+`CNAME`
+
+`SOA`
+
+`SRV`
+
+`TXT`
+
+`For web apps, you create either an A (Address) record or a CNAME (Canonical Name) record. An A record maps a domain name to an IP address. A CNAME record maps a domain name to another domain name. DNS uses the second name to look up the address. Users still see the first domain name in their browser. If the IP address changes, a CNAME entry is still valid, whereas an A record must be updated.
+`
+
+
+
 ## You have a Basic Azure App Service plan that contains a web app.
 
 You need to ensure that the web app can scale automatically when the CPU percentage goes beyond 80 percent for a duration of 15 minutes.
