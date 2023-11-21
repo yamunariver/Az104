@@ -11,7 +11,8 @@ What should you do?
 
 Select only one answer.
 
-` `
+`
+`
 
 `Configure a DNS server on all four virtual machines.`
 
