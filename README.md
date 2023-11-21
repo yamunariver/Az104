@@ -18,6 +18,7 @@ Select only one answer.
 `External collaboration settings`
 
 ``
+
 External collaboration settings let you specify which roles in your organization can invite external users for B2B collaboration. These settings also include options for allowing or blocking specific domains and options for restricting which external guest users can see in your Microsoft Entra directory.
 
 Conditional Access allows you to apply rules to strengthen authentication and block access to resources from unknown locations.
@@ -25,6 +26,7 @@ Conditional Access allows you to apply rules to strengthen authentication and bl
 Cross-tenant access settings are used to configure collaboration with a specific Microsoft Entra organization.
 
 Access reviews are not used to control who can invite guest users.
+
 ``
 
 
