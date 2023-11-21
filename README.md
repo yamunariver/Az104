@@ -1,3 +1,26 @@
+## You have an Azure subscription that contains a container app named App1. App1 is configured to use cached data.
+
+You plan to create a new container.
+
+You need to ensure that the new container automatically refreshes the cache used by App1.
+
+Which type of container should you configure?
+
+Select only one answer.
+
+`blob`
+
+`init`
+
+`privileged`
+
+`sidecar`
+
+`
+Azure Container Apps manages the details of Kubernetes and container orchestration. Containers in Azure Container Apps can use any runtime, programming language, or development stack of your choice. You can define multiple containers in a single container app to implement the sidecar pattern, for example, an agent that reads logs from the primary app container in a shared volume and forwards them to a logging service
+`
+
+
 ## You have a Basic Azure App Service plan that contains a web app.
 
 You need to ensure that the web app can scale automatically when the CPU percentage goes beyond 80 percent for a duration of 15 minutes.
