@@ -10,10 +10,10 @@ Select all answers that apply.
 
 ` `
 
-`New-AzRoleAssignment -ObjectId $User.id ` -RoleDefinitionName "Network Contributor" ` -ResourceName Network1 ` -ResourceType Microsoft.Network/virtualNetworks ` -ResourceGroupName RG1
+`New-AzRoleAssignment -ObjectId $User.id  -RoleDefinitionName "Network Contributor"  -ResourceName Network1  -ResourceType Microsoft.Network/virtualNetworks  -ResourceGroupName RG1
 This answer is correct.`
 
-`New-AzRoleAssignment -ObjectId $User.id ` -RoleDefinitionName "Virtual Machine Contributor" ` -ResourceGroupName RG1`
+`New-AzRoleAssignment -ObjectId $User.id  -RoleDefinitionName "Virtual Machine Contributor" -ResourceGroupName RG1`
 
 `$User = Get-AzADServicePrinciple -DisplayName admin1`
 
