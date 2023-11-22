@@ -1,3 +1,28 @@
+## You have an Azure virtual machine that hosts a third-party application named App1.
+
+Users report that they experience performance issues when they use the application.
+
+You need to find the root cause of the performance issue.
+
+What should you use?
+
+Select only one answer.
+
+` `
+
+`activity logs`
+
+`Azure Advisor`
+
+`Azure Cost`
+
+`Azure Monitor`
+
+
+`Azure Monitor stores metrics in a time-series database that is optimized for analyzing time-stamped data. Activity logs detect and address issues before users notice them proactivity. Azure Advisor analyzes configuration and usage metrics but does not provide time-lapsed data. Azure Cost only helps to optimize and reduce overall Azure spending.`
+
+
+
 ## You have an Azure subscription that contains a resource group named RG1. RG1 contains an application named App1 and a container app named containerapp1.
 
 App1 is experiencing performance issues when attempting to add messages to the containerapp1 queue.
