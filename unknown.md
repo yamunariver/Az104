@@ -1,3 +1,27 @@
+## You have an Azure subscription that contains virtual machines, virtual networks, application gateways, and load balancers.
+
+You need to monitor the network health of the resources.
+
+Which Azure service should you use?
+
+Select only one answer.
+
+` `
+
+`Azure Monitor`
+
+`Azure Network Watcher`
+
+`Azure Resource Manager`
+
+`network security groups (NSGs)`
+
+`Azure Network Watcher provides tools to monitor, diagnose, view metrics, and enable or disable logs for resources on an Azure virtual network. Azure Resource Manager is the deployment and management service for Azure. Network security groups (NSGs) are used only for security, not monitoring. Azure Monitor is used for the HTTP Data Collector API to send log data to Log Analytics.`
+
+
+
+
+
 ## You plan to provision an Azure subscription that will contain the following virtual networks:
 
 VNet1 in the East US Azure region with two subnets
