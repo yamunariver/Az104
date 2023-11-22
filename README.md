@@ -1,3 +1,35 @@
+## You have an Azure subscription that contains an Azure App Service web app named App1.
+
+You have the following diagnostic logging configurations:
+
+Application Logging (FileSystem): Error
+Application Logging (Blob): Information
+Detailed Error Message: Warning
+Web Server Logging: Verbose
+You need to configure diagnostic logging to store all warnings or higher.
+
+Which types of diagnostic logging and severity should you enable?
+
+Select all answers that apply.
+
+` ` 
+
+`Application Logging (Blob)`
+
+`Application Logging (FileSystem)`
+
+`Detailed Error Message`
+
+`Verbose`
+
+`Warning`
+
+
+`You must enable the Application Logging (Blob) diagnostic, which can be stored for more than a week. You must also set the severity level to warning, to store warning, error, and critical log messages.`
+
+
+
+
 ## You are deploying a virtual machine by using an availability set in the East US Azure region.
 
 You have deployed 18 virtual machines in two fault domains and 10 update domains.
