@@ -1,3 +1,48 @@
+## You have an Azure subscription.
+
+An administrator manages access to resources at the resource group level. The assignment process is automated by running the following PowerShell script nightly.
+
+$rg = "RG1" 
+$RoleName = "CustomRole1" 
+$Role = Get-AzRoleDefinition -Name $RoleName 
+New-AzRoleAssignment -SignInName user1@contoso.com `
+    -RoleDefinitionName $Role.Name `
+    -ResourceGroupName $rg
+User1 is unable to access the RG1 resource group. You discover that the script fails to complete for new users.
+
+You run Get-AzRoleDefinition | Format-Table -Property Name, Id and receive the following information:
+
+`Name: Custom Role 1, ID: 111-222-333`
+
+`Name: Owner, ID: 222-333-444`
+
+`Name: Contributor, ID: 333-444-555`
+
+`Name: Reader, ID: 666-777-888`
+
+You need to modify the script to ensure that it does not fail in the future.
+
+What should you change in the script?
+
+Select only one answer.
+
+` `
+
+`$Role = Add-AzRoleDefinition -Name $RoleName`
+
+`$Role = Get-AzRoleAssignment -Name $RoleName`
+
+`$Role = Set-AzRoleAssignment -Name $RoleName`
+
+`$RoleName = "111-222-333"`
+
+
+`You should use the ID of the role in case the role name was changed to prevent such a change from breaking the script.`
+
+
+
+
+
 ## You have an Azure subscription that contains a storage account named storage1.
 
 You need to provide storage1 with access to a partner organization. Access to storage1 must expire after 24 hours.
