@@ -1,3 +1,27 @@
+## You have an Azure subscription that contains a storage account named storage1.
+
+You need to provide storage1 with access to a partner organization. Access to storage1 must expire after 24 hours.
+
+What should you configure?
+
+Select only one answer.
+
+` `
+
+`a shared access signature (SAS)`
+
+`an access key`
+
+`Azure Content Delivery Network (CDN)`
+
+`lifecycle management`
+
+`A SAS provides secure delegated access to resources in a storage account. With a SAS, you have granular control over how a client can access data, including time restrictions.`
+
+`Access keys and Azure CDN provide permanent access to resources. They will require manual steps to remove access. Lifecycle management is not needed.`
+
+
+
 ## You create an Azure Storage account.
 
 You need to create a lifecycle management rule to move blobs to Cool storage if the blobs have not been used for 30 days.
