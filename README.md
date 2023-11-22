@@ -12,7 +12,7 @@ Select only one answer.
 
 `az containerapp job create \ --name "my-job" --resource-group "RG1" -trigger-type "Event" \ -replica-timeout 60 --replica-retry-limit 1 ...`
 
-az containerapp job create \ --name "my-job" --resource-group " RG1" -trigger-type "Manual" \ -replica-timeout 60 --replica-retry-limit 1 ...`
+`az containerapp job create \ --name "my-job" --resource-group " RG1" -trigger-type "Manual" \ -replica-timeout 60 --replica-retry-limit 1 ...`
 
 `az containerapp job start \ --name "my-job" --resource-group " RG1" -trigger-type "Schedule" \ -replica-timeout 60 --replica-retry-limit 1 ...`
 
