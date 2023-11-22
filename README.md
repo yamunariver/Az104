@@ -1,3 +1,30 @@
+## You have an Azure subscription that contains 20 virtual networks and 500 virtual machines.
+
+You deploy a new virtual machine named VM501.
+
+You discover that VM501 is unable to communicate with a virtual machine named VM20 in the subscription. You suspect that a network security group (NSG) is the cause of the issue.
+
+You need to identify whether an NSG is blocking communications. The solution must minimize administrative effort.
+
+What should you use?
+
+Select only one answer.
+
+` `
+
+`diagnostic logs`
+
+`IP flow verify`
+
+`NSG flow logs`
+
+packet capture
+
+`IP flow verify lets you specify a source and destination IPv4 address, port, protocol (TCP or UDP), and traffic direction (inbound or outbound). IP flow verify can identify the specific network security group (NSG) that prevents communication. NSG flow logs is a feature of Azure Network Watcher that allows you to log information about IP traffic flowing through an NSG. Although the logs may help you identify the source of the issue, it requires much more configuration and manual evaluation. Packet capture allows you to create packet capture sessions to track traffic to and from a virtual machine. Packet capture may help narrow down the scope of the issue, but it will not identify the specific NSG that prevents communication.`
+
+
+
+
 ## You have an Azure virtual machine that you back up by using Azure Backup.
 
 The backup policy sub type is Standard, and the backup policy has the following configurations:
