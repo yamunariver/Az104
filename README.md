@@ -1,3 +1,31 @@
+## You have an Azure subscription that contains a resource group named RG1. RG1 has a virtual network named VNet3, a virtual machine named VM1, and a public IP address named PubIP1. All the resources are in the West US Azure region.
+
+You plan to create and configure a network security group (NSG) named NSG1 for the following types of traffic:
+
+Remote Desktop Management
+HTTP
+NSG1 will be used on the subnets of multiple virtual networks.
+
+Which two cmdlets should you run? Each correct answer presents part of the solution.
+
+
+Select all answers that apply.
+
+``
+
+`Add-AzLoadBalancerFrontendIpConfig`
+
+`Add-AzNetworkInterfaceTapConfig`
+
+`New-AzNetworkSecurityGroup`
+
+`New-AzNetworkSecurityRuleConfig`
+
+`New-AzNetworkSecurityRuleConfig allows you to create a rule and provide the type, protocol, direction, and port number. New-AzNetworkSecurityGroup creates a network security group (NSG). -SecurityRules specifies a list of network security rule objects to create in a NSG.`
+
+
+
+
 ##  You have an Azure subscription that contains a web app named App1.
 
 You configure App1 with a custom domain name of webapp1.contoso.com.
