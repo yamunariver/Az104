@@ -1,3 +1,31 @@
+## You have an Azure virtual network named VNet1 that is deployed to the Azure East US region.
+
+You need to ensure that email is sent to an administrator when a virtual machine is connected to VNet1.
+
+What should you create?
+
+Select all answers that apply.
+
+` `
+
+`an action group`
+
+`an alert processing rule`
+
+`an alert rule`
+
+`a mail-enabled security group`
+
+
+
+`Azure Monitor alerts proactively notify you when important conditions are found in monitoring data. They allow you to identify and address issues in the system before customers notice them. You can set alerts on metrics, logs, and the activity log. Different types of alerts have benefits and drawbacks. Metrics is a feature of Azure Monitor that collects numeric data from monitored resources into a time-series database. Metrics are numerical values that are collected at regular intervals and describe some aspect of a system at a particular time.`
+
+`When Azure Monitor data indicates that there may be an issue with an infrastructure or application, an alert is triggered. Azure Monitor, Azure Service Health, and Azure Advisor then use action groups to notify users about the alert and take action. An action group is a collection of notification preferences defined by the owner of an Azure subscription.`
+
+
+
+
+
 ## You have an Azure subscription that contains two protected virtual machines named VM1 and VM2. VM1 and VM2 are backed up to a Recovery Service vault named Vault1 by using the same backup policy.
 
 Your company plans to create additional virtual machines and Recovery Services vaults. During this process, Vault1 will be decommissioned.
