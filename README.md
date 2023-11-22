@@ -1,3 +1,26 @@
+## You create an Azure Storage account.
+
+You need to create a lifecycle management rule to move blobs to Cool storage if the blobs have not been used for 30 days.
+
+What should you do first?
+
+Select only one answer.
+
+` `
+
+`Enable access tracking.`
+
+`Enable versioning for blobs.`
+
+`Refresh the blob inventory.`
+
+`Rotate the storage account keys.`
+
+`A lifecycle management rule can be used to move or delete blobs automatically. The rule can be based on the time the blob was last modified or the time the blob was last accessed (read or write). To perform an action based on the access time, access tracking must be enabled. This can incur additional storage costs.`
+
+
+
+
 ## You have an Azure subscription that contains 20 virtual networks and 500 virtual machines.
 
 You deploy a new virtual machine named VM501.
