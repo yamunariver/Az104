@@ -5,10 +5,8 @@ Which App Service plan should you use?
 Select only one answer.
 
 `Basic`
-`
-Free
-`
-Premium`
+`Free`
+`Premium`
 
 `Standard`
 
