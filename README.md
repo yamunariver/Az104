@@ -1,3 +1,21 @@
+## You need to create an Azure App Service web app that runs on Windows. The web app requires scaling to five instances, 45 GB of storage, and a custom domain name. The solution must minimize costs.
+
+Which App Service plan should you use?
+
+Select only one answer.
+
+`Basic`
+`
+Free
+`
+Premium`
+
+`Standard`
+
+`The Standard service plan can host unlimited web apps, up to 50 GB of disk space, and up to 10 instances. The plan will cost approximately $0.10/hour. The Free plan only offers 1 GB of disk size and 0 instances to host the app. The Premium plan offers 250 GB of disk space and up to 30 instances and will cost approximately $0.20/hour. The Basic plan offers 10 GB of disk space and up to three virtual machines.`
+
+
+
 ## You have an Azure subscription that contains a resource group named RG1. RG1 contains a virtual machine named VM1 connected to a virtual network named Network1.
 
 A user named Admin1 must be able to change the settings of Network1.
