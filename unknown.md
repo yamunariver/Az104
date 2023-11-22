@@ -1,3 +1,28 @@
+## You plan to provision an Azure subscription that will contain the following virtual networks:
+
+VNet1 in the East US Azure region with two subnets
+VNet2 in the East US region with four subnets
+VNet3 in the West Europe Azure region with four subnets
+VNet4 in the West Europe region with two subnets
+How many Azure Network Watcher instances will be provisioned as part of the deployment?
+
+Select only one answer.
+
+` `
+
+`1`
+
+`2`
+
+`4`
+
+`12`
+
+
+`Azure Network Watcher is a regional service that allows you to monitor and diagnose conditions at a network scenario level in, to, and from Azure. When you create or update a virtual network in a subscription, Network Watcher will be enabled automatically in the virtual network's region. There is no impact on resources or associated charges for automatically enabling Network Watcher.`
+
+
+
 ## You have an Azure virtual network named VNet1 that is deployed to the Azure East US region.
 
 You need to ensure that email is sent to an administrator when a virtual machine is connected to VNet1.
