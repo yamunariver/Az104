@@ -1,3 +1,34 @@
+## You have an Azure virtual machine that you back up by using Azure Backup.
+
+The backup policy sub type is Standard, and the backup policy has the following configurations:
+
+Backup schedule frequency: Weekly
+Retain instant recovery snapshot(s) for: 5 days
+Retention of weekly backup point: On Sunday at 8:00 AM for 12 weeks
+You plan to reduce the amount of storage used by Instant Restore.
+
+You need to instance recovery snapshots to be retained for only two days.
+
+What should you do first?
+
+Select only one answer.
+
+` `
+
+
+`Change Policy sub type to Enhanced.`
+
+`Change Retention of weekly backup point to 1 week.`
+
+`Change the backup schedule frequency to **Daily**.`
+
+`Provision an additional blob storage container.`
+
+
+`You can choose to store between one and five instant recovery snapshots and the default value is two. However, when the backup schedule frequency is weekly, you must retain five instant recovery snapshots.`
+
+
+
 ## You have an Azure virtual machine named Server1 that runs Windows Server.
 
 You need to configure Azure Backup to back up files and folders.
