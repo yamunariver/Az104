@@ -1,3 +1,29 @@
+## You have an Azure subscription that contains a resource group named RG1. RG1 contains a virtual machine named VM1 connected to a virtual network named Network1.
+
+A user named Admin1 must be able to change the settings of Network1.
+
+You need to use PowerShell to assign Admin1 the appropriate role and permissions.
+
+Which two PowerShell statements should you use to complete the task? Each correct answer presents part of the solution.
+
+Select all answers that apply.
+
+` `
+
+`New-AzRoleAssignment -ObjectId $User.id ` -RoleDefinitionName "Network Contributor" ` -ResourceName Network1 ` -ResourceType Microsoft.Network/virtualNetworks ` -ResourceGroupName RG1
+This answer is correct.`
+
+`New-AzRoleAssignment -ObjectId $User.id ` -RoleDefinitionName "Virtual Machine Contributor" ` -ResourceGroupName RG1`
+
+`$User = Get-AzADServicePrinciple -DisplayName admin1`
+
+`$User = Get-AzADUser -DisplayName admin1`
+
+`Before assigning an RBAC role to a user, you must use the Get-AzADUser cmdlet to obtain the ID of the user. The New-AzRoleAssignment cmdlet can be used to assign an RBAC role to any resource. If you assign the Virtual Machine Contributor role to RG1, it will only allow changes to the virtual machine, it will not allow Admin1 to manage the virtual network. To modify network settings, you must assign the Network Contributor role.`
+
+
+
+
 ## You have an Azure subscription.
 
 An administrator manages access to resources at the resource group level. The assignment process is automated by running the following PowerShell script nightly.
