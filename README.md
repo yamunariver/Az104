@@ -1,3 +1,34 @@
+## You have an Azure virtual machine that runs Linux. The virtual machine hosts a custom application that outputs log data in the JSON format.
+
+You need to recommend a solution to collect the logs in Azure Monitor.
+
+What should you include in the recommendation?
+
+Select only one answer.
+
+` 
+`
+
+`the Azure VMAccess extension`
+
+`the Custom Script Extension Version 2 extension`
+
+`the DSC extension for Linux`
+
+`the Log Analytics agent for Linux`
+
+
+`You can use the Log Analytics agent for Linux as part of a solution to collect JSON output from the Linux virtual machines.`
+
+`The Azure Custom Script Extension is used for post-deployment configuration, software installation, or any other configuration or management task.`
+
+`Desired State Configuration (DSC) is a management platform that you can use to manage an IT and development infrastructure with configuration as code.`
+
+`The Azure VMAccess extension acts as a KVM switch that allows you to access the console to reset access to Linux or perform disk-level maintenance.`
+
+
+
+
 ## You have an Azure virtual machine that hosts a third-party application named App1.
 
 Users report that they experience performance issues when they use the application.
