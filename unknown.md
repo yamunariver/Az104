@@ -1,3 +1,33 @@
+## You have an Azure subscription that contains two protected virtual machines named VM1 and VM2. VM1 and VM2 are backed up to a Recovery Service vault named Vault1 by using the same backup policy.
+
+Your company plans to create additional virtual machines and Recovery Services vaults. During this process, Vault1 will be decommissioned.
+
+You need to delete Vault1.
+
+Which three actions should you perform before you can delete Vault1? Each correct answer presents part of the solution.
+
+Select all answers that apply.
+
+` `
+
+`Delete VM1 and VM2.`
+
+`Disable the soft delete feature and delete all data.`
+
+`Enable a Read lock on Vault1.`
+
+`Permanently remove any items in the soft delete state.`
+
+`Stop the backup of VM1 and VM2.`
+
+
+
+`You must stop the backups so that you can prepare to move to the new policy. The soft delete feature is enabled by default, so it must be disabled. You must remove all the items that are in the soft delete state. Deleting the virtual machines is not required. You cannot delete the policy without deleting the vault and backup, and a new policy is not required.`
+
+
+
+
+
 ## Your company has a main office in Seattle and a branch office in New York.
 
 You have an Azure subscription that contains an application named App1 and a user named User1 located in the Seattle office.
