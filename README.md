@@ -1,3 +1,59 @@
+## You have an Azure subscription that contains two protected virtual machines named VM1 and VM2. VM1 and VM2 are backed up to a Recovery Service vault named Vault1 by using the same backup policy.
+
+Your company plans to create additional virtual machines and Recovery Services vaults. During this process, Vault1 will be decommissioned.
+
+You need to delete Vault1.
+
+Which three actions should you perform before you can delete Vault1? Each correct answer presents part of the solution.
+
+Select all answers that apply.
+
+` `
+
+`Delete VM1 and VM2.`
+
+`Disable the soft delete feature and delete all data.`
+
+`Enable a Read lock on Vault1.`
+
+`Permanently remove any items in the soft delete state.`
+
+`Stop the backup of VM1 and VM2.`
+
+
+`You must stop the backups so that you can prepare to move to the new policy. The soft delete feature is enabled by default, so it must be disabled. You must remove all the items that are in the soft delete state. Deleting the virtual machines is not required. You cannot delete the policy without deleting the vault and backup, and a new policy is not required.`
+
+
+
+
+## You have an Azure virtual machine that runs Linux. The virtual machine hosts a custom application that outputs log data in the JSON format.
+
+You need to recommend a solution to collect the logs in Azure Monitor.
+
+What should you include in the recommendation?
+
+Select only one answer.
+
+the Azure VMAccess extension
+
+the Custom Script Extension Version 2 extension
+This answer is incorrect.
+
+the DSC extension for Linux
+
+the Log Analytics agent for Linux
+This answer is correct.
+You can use the Log Analytics agent for Linux as part of a solution to collect JSON output from the Linux virtual machines.
+
+The Azure Custom Script Extension is used for post-deployment configuration, software installation, or any other configuration or management task.
+
+Desired State Configuration (DSC) is a management platform that you can use to manage an IT and development infrastructure with configuration as code.
+
+`The Azure VMAccess extension acts as a KVM switch that allows you to access the console to reset access to Linux or perform disk-level maintenance.`
+
+
+
+
 ## You have a Kusto query that returns 1,000 events from the SecurityEvent table in Azure Monitor.
 
 You need to configure the query to aggregate the results by the Account column.
