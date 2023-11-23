@@ -1,3 +1,27 @@
+## You have a Kusto query that returns 1,000 events from the SecurityEvent table in Azure Monitor.
+
+You need to configure the query to aggregate the results by the Account column.
+
+Which operator should you use?
+
+Select only one answer.
+
+` `
+
+`extend`
+
+`project`
+
+`summarize`
+
+`where`
+
+
+`Summarize is used to group records from one or more columns of data. Where is used to filter the rows. Project is used to rename and select columns. Extend is used to add columns.`
+
+
+
+
 ## You need to create an Azure App Service web app that runs on Windows. The web app requires scaling to five instances, 45 GB of storage, and a custom domain name. The solution must minimize costs.
 
 Which App Service plan should you use?
