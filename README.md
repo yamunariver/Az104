@@ -1,4 +1,38 @@
-You need to generate the shared access signature (SAS) token required to authorize a request to a resource.
+## You have two Azure subscriptions named Sub1 and Sub2.
+
+Sub1 contains a virtual network named VNet1 and a VPN gateway. Sub2 contains a virtual network named VNet2.
+
+You have an on-premises device named Device1 that runs Windows and has a Point-to-Site (P2S) VPN client installed.
+
+You configure network peering between VNet1 and VNet2.
+
+You need to ensure that Device1 can access VNet2 when a VPN connection is established.
+
+What should you do?
+
+Select only one answer.
+
+` `
+
+`Create a private endpoint in Sub2.`
+
+`Deploy Azure Front Door to Sub2.`
+
+`Download and reinstall the P2S VPN client on Device1.`
+
+`Run the `New-SelfSignedCertificate` cmdlet on Device1.`
+
+
+`Point-to-Site (P2S) VPN clients must be downloaded and reinstalled again after virtual network peering is successfully configured to ensure that the new routes are downloaded to the client.`
+
+`A private endpoint and Azure Front Door are not required nor used to be able to access VNet2 from VNet1.`
+
+`Device1 already has a digital certificate when you install the P2S VPN client, so you do not need to create new certificate manually.`
+
+
+
+
+## You need to generate the shared access signature (SAS) token required to authorize a request to a resource.
 
 Which two parameters are required for the SAS token? Each correct answer presents part of the solution
 
