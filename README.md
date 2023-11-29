@@ -1,3 +1,25 @@
+## You need to generate the shared access signature (SAS) token required to authorize a request to a resource.
+
+Which two parameters are required for the SAS token? Each correct answer presents part of the solution
+
+Select all answers that apply.
+
+` `
+
+`SignedIP (sip)`   
+
+`SignedResourceTypes (srt)`
+
+`SignedServices (ss) `
+
+`SignedStart (st)`
+
+
+`SignedServices (ss) is required to refer blobs, queues, tables, and files. SignedResourceTypes (srt) is required to refer services, containers, or objects. SignedStart (st) is an optional parameter that refers to the time when the SAS becomes valid. If unmentioned, the start time is assumed to be the time when the storage service receives the request. SignedIP (sip) is an optional parameter that refers to the range of IP addresses from which to accept requests.`
+
+
+
+
 ## You have two Azure subscriptions named Sub1 and Sub2.
 
 Sub1 contains a virtual network named VNet1 and a VPN gateway. Sub2 contains a virtual network named VNet2.
