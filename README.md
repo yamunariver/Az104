@@ -1,3 +1,37 @@
+## You have an Azure subscription that contains a resource group named RG1. RG1 contains an application named App1 and a container app named containerapp1.
+
+App1 is experiencing performance issues when attempting to add messages to the containerapp1 queue.
+
+You need to create a job to perform an application resource cleanup when a new message is added to a queue.
+
+Which command should you run?
+
+Select only one answer.
+
+` `
+
+`az containerapp job create \ --name "my-job" --resource-group "RG1" -trigger-type "Event" \ -replica-timeout 60 --replica-retry-limit 1 ...`
+
+`az containerapp job create \ --name "my-job" --resource-group " RG1" -trigger-type "Manual" \ -replica-timeout 60 --replica-retry-limit 1 ...`
+
+`az containerapp job start \ --name "my-job" --resource-group " RG1" -trigger-type "Schedule" \ -replica-timeout 60 --replica-retry-limit 1 ...`
+
+`az containerapp job start \ --name "my-job" --resource-group " RG1" -trigger-type "Event" \ -replica-timeout 60 --replica-retry-limit 1 ...`
+
+
+`Azure Container Apps jobs enable you to run containerized tasks that execute for a finite duration, and then exit. You can use jobs to perform tasks such as data processing, machine learning, or any scenario where on-demand processing is required. Container apps and jobs run in the same environment, allowing them to share capabilities such as networking and logging.`
+
+`A job's trigger type determines how the job is started. The following trigger types are available:`
+
+`Manual: Manual jobs are triggered on demand.`
+
+`Schedule: Scheduled jobs are triggered at specific times and can run repeatedly.`
+
+`Event: Event-driven jobs are triggered by events such as a message arriving in a queue.`
+
+
+
+
 ## You have an Azure subscription that contains the following resources:
 
 Eight virtual networks
